@@ -22,7 +22,7 @@ order: 1
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=154.7676544189453,259.0290222167969,1071.3580780029297,667.7212219238281"
+            "value": "xywh=195.07183837890625,259.0290222167969,1031.0538940429688,672.4364318847656"
         },
         "dcterms:isPartOf": {
             "id": "https://api.nb.no/catalog/v1/iiif/3296fd9579d990257a3c5ffe79467503/manifest",
