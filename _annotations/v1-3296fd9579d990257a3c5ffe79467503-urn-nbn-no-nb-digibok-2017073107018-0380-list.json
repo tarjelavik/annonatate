@@ -1,0 +1,9 @@
+---
+canvas_id: "https://api.nb.no/catalog/v1/iiif/3296fd9579d990257a3c5ffe79467503/canvas/URN:NBN:no-nb_digibok_2017073107018_0380"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
