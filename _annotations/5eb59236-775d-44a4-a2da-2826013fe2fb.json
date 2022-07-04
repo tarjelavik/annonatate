@@ -1,0 +1,35 @@
+---
+canvas: "https://api.nb.no/catalog/v1/iiif/3296fd9579d990257a3c5ffe79467503/canvas/URN:NBN:no-nb_digibok_2017073107018_0380"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "H\u00f8rve",
+            "purpose": "commenting",
+            "creator": {
+                "id": "tarjelavik",
+                "name": "Tarje Lavik"
+            },
+            "created": "2022-07-04T12:33:44.562Z",
+            "modified": "2022-07-04T12:33:49.227Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.nb.no/catalog/v1/iiif/3296fd9579d990257a3c5ffe79467503/canvas/URN:NBN:no-nb_digibok_2017073107018_0380",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=154.7676544189453,259.0290222167969,1071.3580780029297,667.7212219238281"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://api.nb.no/catalog/v1/iiif/3296fd9579d990257a3c5ffe79467503/manifest",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5eb59236-775d-44a4-a2da-2826013fe2fb.json",
+    "motivation": "commenting"
+}
