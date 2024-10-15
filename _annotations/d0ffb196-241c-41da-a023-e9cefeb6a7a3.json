@@ -1,0 +1,34 @@
+---
+canvas: "https://iiif.test.ubbe.no/iiif/image/8f80225d-c16c-3066-8426-e4d11fa20f57/full/max/0/default.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\u00d8yestad",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "tarjelavik",
+                "name": "Tarje Lavik"
+            },
+            "created": "2024-10-15T09:53:12.385Z",
+            "modified": "2024-10-15T09:53:18.517Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iiif.test.ubbe.no/iiif/image/8f80225d-c16c-3066-8426-e4d11fa20f57/full/max/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1097.3482666015625,115.73966217041016,119.345703125,42.24396514892578"
+        }
+    },
+    "id": "d0ffb196-241c-41da-a023-e9cefeb6a7a3.json",
+    "motivation": "commenting"
+}
