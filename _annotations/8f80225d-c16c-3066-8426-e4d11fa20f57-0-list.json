@@ -1,0 +1,9 @@
+---
+canvas_id: "https://iiif.test.ubbe.no/iiif/image/8f80225d-c16c-3066-8426-e4d11fa20f57/full/max/0/default.jpg"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
