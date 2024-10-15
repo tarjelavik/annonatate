@@ -1,0 +1,36 @@
+---
+canvas: "https://iiif.test.ubbe.no/iiif/image/8f80225d-c16c-3066-8426-e4d11fa20f57/full/max/0/default.jpg"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Aust-Agder",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "tarjelavik",
+                "name": "Tarje Lavik"
+            },
+            "created": "2024-10-15T09:54:22.385Z",
+            "modified": "2024-10-15T09:54:33.766Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iiif.test.ubbe.no/iiif/image/8f80225d-c16c-3066-8426-e4d11fa20f57/full/max/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1021.2198486328125,32.1444206237793 1274.5894775390625,35.1505126953125 1274.0876251685718,77.44933317425235 1020.7179962623218,74.44324110271914\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5a405749-d19e-4ae3-9eb5-05d724f1b5b8.json",
+    "motivation": "commenting"
+}
