@@ -1,0 +1,45 @@
+---
+canvas: "https://iiif.test.ubbe.no/iiif/image/8f80225d-c16c-3066-8426-e4d11fa20f57/full/max/0/default.jpg"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "A. Muri",
+            "purpose": "identifying",
+            "creator": {
+                "id": "tarjelavik",
+                "name": "Tarje Lavik"
+            },
+            "created": "2024-10-15T09:55:20.858Z",
+            "modified": "2024-10-15T09:55:29.533Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Author",
+            "purpose": "tagging",
+            "creator": {
+                "id": "tarjelavik",
+                "name": "Tarje Lavik"
+            },
+            "created": "2024-10-15T09:55:35.462Z",
+            "modified": "2024-10-15T09:55:36.094Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iiif.test.ubbe.no/iiif/image/8f80225d-c16c-3066-8426-e4d11fa20f57/full/max/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1137.419677734375,798.7415771484375,99.1204833984375,33.728515625"
+        }
+    },
+    "id": "b031dc55-0d8c-4661-bcc4-546d4c051943.json",
+    "motivation": "commenting"
+}
