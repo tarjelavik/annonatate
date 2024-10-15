@@ -1,3 +1,9 @@
-images: []
+images:
+- added: '2024-10-15 09:52:57.767157'
+  iiif: false
+  thumbnail: https://iiif.test.ubbe.no/iiif/image/8f80225d-c16c-3066-8426-e4d11fa20f57/full/max/0/default.jpg
+  title: ''
+  url: https://iiif.test.ubbe.no/iiif/image/8f80225d-c16c-3066-8426-e4d11fa20f57/full/max/0/default.jpg
+  user: Tarje Lavik
 settings: {}
 version: '2.1'
