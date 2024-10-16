@@ -1,4 +1,12 @@
 images:
+- added: '2024-10-16 11:07:11.125659'
+  iiif: true
+  thumbnail: ''
+  title:
+  - 'no':
+    - All results
+  url: https://api-ub.vercel.app/collections/search?id=ubb-jg
+  user: Tarje Lavik
 - added: '2024-10-15 09:52:57.767157'
   iiif: false
   thumbnail: https://iiif.test.ubbe.no/iiif/image/8f80225d-c16c-3066-8426-e4d11fa20f57/full/max/0/default.jpg
