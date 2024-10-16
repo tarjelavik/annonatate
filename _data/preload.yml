@@ -1,4 +1,14 @@
 images:
+- added: '2024-10-16 11:08:04.742708'
+  iiif: true
+  thumbnail: https://data.ub.uib.no/files/bs/ubb/ubb-jg/ubb-jg-l/ubb-jg-l-0985/jpg/ubb-jg-l-0985_xl.jpg
+  title:
+  - en:
+    - '[UN in the Middle east 1957]'
+    'no':
+    - "[FN i Midt\xF8sten 1957]"
+  url: https://api-ub.vercel.app/items/ubb-jg-l-0985/manifest
+  user: Tarje Lavik
 - added: '2024-10-16 11:07:11.125659'
   iiif: true
   thumbnail: ''
