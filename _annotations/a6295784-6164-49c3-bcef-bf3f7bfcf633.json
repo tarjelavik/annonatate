@@ -1,0 +1,38 @@
+---
+canvas: "http://data.ub.uib.no/instance/page/ubb-jg-l-0985_p1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Photographs",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "tarjelavik",
+                "name": "Tarje Lavik"
+            },
+            "created": "2024-10-16T11:08:46.071Z",
+            "modified": "2024-10-16T11:09:02.101Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://api-ub.vercel.app/items/ubb-jg-l-0985/manifest",
+                "type": "Manifest"
+            },
+            "id": "http://data.ub.uib.no/instance/page/ubb-jg-l-0985_p1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2738.956298828125,4132.4716796875,368.964111328125,97.76513671875"
+        }
+    },
+    "id": "a6295784-6164-49c3-bcef-bf3f7bfcf633.json",
+    "motivation": "commenting"
+}
